@@ -1,25 +1,49 @@
 #main {
     background-color: lightgray;
     text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #title {
-
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 #subtitle {
-    
+   font-size: 15px; 
 }
 
 #img-div {
+    background-color: white;
+    margin: 2%;
+    padding: 2%;
+}
 
+img {
+    max-width: 98%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #img-caption {
+    font-size: 15px;
+}
 
+#tribute-header {
+    font-size: 15px;
 }
 
 #tribute-info {
-    position: fixed;
-    left: 200px;
+    text-align: left;
+    width: auto;
+    padding-left: 30%;
+    font-size: 15px;
+}
+
+#tribute-bottom {
+    font-size: 13px;
+    padding-bottom: 10px;
 }
